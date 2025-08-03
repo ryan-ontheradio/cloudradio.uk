@@ -24,9 +24,10 @@
 <body>
   <div style="text-align: center;">
     <form>
-    <input type="button" value="Subscribe" onclick="stripe_checkout814()" class="payButton">
+      <input type="button" value="Subscribe" onclick="stripe_checkout814()" class="payButton">
     </form>
   </div>
+
   <script type="text/javascript">
     function stripe_checkout814() {
       window.open("https://www.authpro.com/cgi-bin/pcs/stripe_rtc.cgi?user=cloudradio&s=" + stripe_session814, '_blank').focus();
